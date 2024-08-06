@@ -21,6 +21,27 @@ The model is trained using the following steps:
 # Inference
 For inference, a FastAPI application is created to handle image uploads and interact with the TensorFlow Serving endpoint. The application receives an image, processes it, and sends a request to the TensorFlow Serving model for prediction.
 
+# Dependencies
+<ul>
+  <li>TensorFlow</li>
+  <li>FastAPI</li>
+  <li>Uvicorn</li>
+  <li>Requests</li>
+  <li>PIL (Pillow)</li>
+  <li>NumPy</li>
+  <li>Matplotlib</li>
+</ul>
+Ensure all dependencies are installed using pip:
+
+```
+pip install tensorflow fastapi uvicorn requests pillow numpy matplotlib
+              OR
+// navigate to the Api directory
+cd Api
+//install required dependencies through txt file
+pip install -r requirements.txt 
+```
+
 # Installation and Setup
 <ul>
   <li>Install Docker: TensorFlow Serving is run using Docker. Ensure Docker is installed on your system.</li>
